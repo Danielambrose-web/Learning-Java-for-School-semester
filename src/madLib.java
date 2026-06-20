@@ -29,7 +29,10 @@ public class madLib {
 
         require.close();
 
-
+        System.out.println("Today I went to a "+ place);
+        System.out.println("In an exhibit, i saw "+ noun);
+        System.out.println(noun +" was "+discription+ "and "+action);
+        System.out.println("I was "+mood);
 
         // System.out.print(name);
     }
