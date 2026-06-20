@@ -11,9 +11,24 @@ public class madLib {
 
 
         Scanner require = new Scanner(System.in);
+        System.out.println("Enter an  adjective(description of a place): ");
+        place =  require.nextLine();
+
+                System.out.println("Enter an  noun(name/animal): ");
+        noun =  require.nextLine();
+
+                System.out.println("Enter an  adjective(description): ");
+        discription =  require.nextLine();
+
+                System.out.println("Enter an  adjective(description(action)): ");
+        action =  require.nextLine();
+
+                System.out.println("Enter an  adjective(description(mood)): ");
+        mood =  require.nextLine();
 
 
         require.close();
+
 
 
         // System.out.print(name);
