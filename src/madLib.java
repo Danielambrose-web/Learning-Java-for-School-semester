@@ -10,6 +10,11 @@ public class madLib {
         String mood = "";
 
 
+        Scanner require = new Scanner(System.in);
+
+
+        require.close();
+
 
         // System.out.print(name);
     }
